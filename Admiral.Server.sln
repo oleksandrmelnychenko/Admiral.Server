@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admiral.Server.Core", "Admiral.Server.Core\Admiral.Server.Core.csproj", "{C6D53991-32E5-4753-9FDA-513A1A5D0D6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admiral.Server.Core", "Admiral.Server.Core\Admiral.Server.Core.csproj", "{C6D53991-32E5-4753-9FDA-513A1A5D0D6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admiral.Server.Common", "Admiral.Server.Common\Admiral.Server.Common.csproj", "{5A0B6431-E491-41C3-9DD1-203BB0BDDA2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admiral.Server.Domain", "Admiral.Server.Domain\Admiral.Server.Domain.csproj", "{A044594E-055E-441E-BA2F-556FE0DFE0EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admiral.Server.Databases", "Admiral.Server.Databases\Admiral.Server.Databases.csproj", "{A5554E44-3CDC-4F8B-9835-1AFDA39A7430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admiral.Server.Services", "Admiral.Server.Services\Admiral.Server.Services.csproj", "{F8FF6210-FEFE-4E8E-BE16-18699CF9573C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{C6D53991-32E5-4753-9FDA-513A1A5D0D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6D53991-32E5-4753-9FDA-513A1A5D0D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6D53991-32E5-4753-9FDA-513A1A5D0D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0B6431-E491-41C3-9DD1-203BB0BDDA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0B6431-E491-41C3-9DD1-203BB0BDDA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0B6431-E491-41C3-9DD1-203BB0BDDA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0B6431-E491-41C3-9DD1-203BB0BDDA2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A044594E-055E-441E-BA2F-556FE0DFE0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A044594E-055E-441E-BA2F-556FE0DFE0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A044594E-055E-441E-BA2F-556FE0DFE0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A044594E-055E-441E-BA2F-556FE0DFE0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5554E44-3CDC-4F8B-9835-1AFDA39A7430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5554E44-3CDC-4F8B-9835-1AFDA39A7430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5554E44-3CDC-4F8B-9835-1AFDA39A7430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5554E44-3CDC-4F8B-9835-1AFDA39A7430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FF6210-FEFE-4E8E-BE16-18699CF9573C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FF6210-FEFE-4E8E-BE16-18699CF9573C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FF6210-FEFE-4E8E-BE16-18699CF9573C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FF6210-FEFE-4E8E-BE16-18699CF9573C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
